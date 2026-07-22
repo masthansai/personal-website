@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kotte Saimasthan | Personal Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#6a11cb,#2575fc);
+    color:white;
+}
+
+header{
+    width:100%;
+    padding:20px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:rgba(0,0,0,0.2);
+    position:sticky;
+    top:0;
+}
+
+.logo{
+    font-size:30px;
+    font-weight:bold;
+    color:#fff;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:70px 8%;
+    flex-wrap:wrap;
+}
+
+.hero-text{
+    max-width:600px;
+}
+
+.hero-text h1{
+    font-size:50px;
+    margin-bottom:20px;
+}
+
+.hero-text h2{
+    color:yellow;
+    margin-bottom:15px;
+}
+
+.hero-text p{
+    font-size:18px;
+    line-height:1.8;
+}
+
+.hero img{
+    width:320px;
+    height:320px;
+    border-radius:50%;
+    border:8px solid white;
+    box-shadow:0 0 30px cyan;
+    object-fit:cover;
+}
+
+section{
+    width:85%;
+    margin:40px auto;
+    background:white;
+    color:black;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 0 15px rgba(0,0,0,0.3);
+}
+
+section h2{
+    text-align:center;
+    color:#2575fc;
+    margin-bottom:20px;
+}
+
+.about p{
+    text-align:center;
+    font-size:18px;
+    line-height:1.8;
+}
+
+.skills{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:20px;
+}
+
+.skill{
+    background:linear-gradient(45deg,#00c6ff,#0072ff);
+    color:white;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+    font-size:22px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.skill:hover{
+    transform:scale(1.05);
+}
+
+.achievement ul{
+    margin-left:25px;
+    line-height:2;
+    font-size:18px;
+}
+
+.contact{
+    text-align:center;
+}
+
+.contact p{
+    margin:10px;
+    font-size:18px;
+}
+
+footer{
+    text-align:center;
+    background:#111;
+    color:white;
+    padding:20px;
+    margin-top:30px;
+}
+
+button{
+    margin-top:20px;
+    padding:12px 25px;
+    border:none;
+    background:yellow;
+    color:black;
+    font-size:18px;
+    border-radius:30px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+button:hover{
+    background:white;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">My Portfolio</div>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#achievement">Achievements</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero" id="home">
+
+<div class="hero-text">
+
+<h1>Hello, I'm <br><span style="color:yellow;">Kotte Saimasthan</span></h1>
+
+<h2>B.Tech 3rd Year Student</h2>
+
+<p>
+Welcome to my personal portfolio website.
+I am passionate about web development and programming.
+I enjoy learning modern technologies and building creative projects.
+</p>
+
+<button>Welcome to My Portfolio</button>
+
+</div>
+
+<div>
+<img src="myphoto.jpg" alt="Kotte Saimasthan">
+</div>
+
+</section>
+
+<section class="about" id="about">
+
+<h2>About Me</h2>
+
+<p>
+My name is <b>Kotte Saimasthan</b>.
+I am currently pursuing my <b>B.Tech 3rd Year</b>.
+I am interested in Web Development, Software Development, and Programming.
+I always enjoy learning new technologies and improving my coding skills through projects and practice.
+</p>
+
+</section>
+
+<section id="skills">
+
+<h2>My Skills</h2>
+
+<div class="skills">
+
+<div class="skill">HTML</div>
+
+<div class="skill">CSS</div>
+
+<div class="skill">JavaScript</div>
+
+<div class="skill">Java</div>
+
+<div class="skill">Python</div>
+
+</div>
+
+</section>
+
+<section class="achievement" id="achievement">
+
+<h2>Achievements</h2>
+
+<ul>
+
+<li>Completed HTML and CSS learning successfully.</li>
+
+<li>Learning Java Programming.</li>
+
+<li>Learning Python Programming.</li>
+
+<li>Developed basic web applications using HTML, CSS, and JavaScript.</li>
+
+<li>Interested in Full Stack Web Development.</li>
+
+<li>Continuously improving coding and problem-solving skills.</li>
+
+</ul>
+
+</section>
+
+<section class="contact" id="contact">
+
+<h2>Contact</h2>
+
+<p><b>Name:</b> Kotte Saimasthan</p>
+
+<p><b>Education:</b> B.Tech 3rd Year</p>
+
+<p><b>Skills:</b> HTML | CSS | JavaScript | Java | Python</p>
+
+<p><b>Email:</b> youremail@example.com</p>
+
+<p><b>Phone:</b> +91-XXXXXXXXXX</p>
+
+</section>
+
+<footer>
+
+<h3>© 2026 Kotte Saimasthan | Personal Portfolio Website</h3>
+
+</footer>
+
+</body>
+</html>
+
